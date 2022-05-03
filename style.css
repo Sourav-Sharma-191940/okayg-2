@@ -196,3 +196,28 @@ a {
 .showcase {
     color: #fff;
 }
+.test-card{
+    display: flex;
+}
+.leftcard{
+    display: flex;
+    position: relative;
+    /* display: none; */
+
+}
+.image-man{
+    display: flex;
+    position: relative;
+   
+}
+.test-card .card{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    
+}
+.card .image-man img{
+    height: 20vh;
+    width: auto;
+}

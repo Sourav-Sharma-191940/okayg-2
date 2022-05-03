@@ -58,3 +58,21 @@ body{
 .box1 h3,.box2 h3,.box3 h3 {
     font-size: 1.5rem;
 }
+
+.abd{
+    grid-template-columns: 1fr;
+}
+.language{
+    flex-wrap: wrap;
+}
+.ik{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cli .grid > :first-child {
+    grid-column: 1 ;
+    grid-row: 1;
+}
+.botnav{
+    grid-template-columns: 1fr;
+}
