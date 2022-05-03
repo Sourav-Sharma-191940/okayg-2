@@ -1,0 +1,26 @@
+/* tablet  */
+.grid,.showcase .grid,.stats .grid,.cli .grid,.cloud .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.container3{
+    grid-template-columns: repeat(1,3fr);
+    margin: 2rem 0;
+}
+.showcase{
+    height: auto;
+}
+.showcase-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.showcase-form{
+    justify-self: center;
+    margin: auto;
+}
+.fa-3x {
+    font-size: 2em;
+}
+.box1 h3,.box2 h3,.box3 h3 {
+    font-size: 1.5rem;
+}
