@@ -81,3 +81,8 @@
 .con1{
     grid-template-columns: 1fr;
 }
+
+.test-card{
+    flex-direction: column;
+    /* width: 5vw; */
+}

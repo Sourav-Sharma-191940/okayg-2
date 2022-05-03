@@ -76,3 +76,12 @@ body{
 .botnav{
     grid-template-columns: 1fr;
 }
+
+
+.test-card{
+    flex-direction: column;
+}
+.test-card .card {
+    width: 345px;
+   
+}
